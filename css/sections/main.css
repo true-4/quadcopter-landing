@@ -1,0 +1,13 @@
+.main {
+  background-color: aliceblue;
+}
+
+.main__image {
+  background-image: url("../../img/background-head.png");
+  background-repeat: no-repeat;
+  height: 910px;
+}
+
+.header {
+  padding: 20px 60px 0px;
+}

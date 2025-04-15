@@ -1,21 +1,20 @@
-:root {
-  --bg-dark: #202629;
-  --beige: #F3E6C9;
+@import "./theme/variables.css";
+@import "./theme/reset.css";
+@import "./sections/main.css";
 
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
-* {
-  margin: 0;
+.visuallyhidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+  clip-path: inset(0px 0px 99.9% 99.9%);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
   padding: 0;
-  box-sizing: border-box;
-}
-
-body, html {
-  height: 100%;
-  font-family: 'Inter', sans-serif;
-}
-
-.main {
-  height: 100vh;
-  background-image: url('../img/background-head.png');
+  border: 0;
 }
